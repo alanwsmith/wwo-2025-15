@@ -1,0 +1,14 @@
+<bitty-2-0 data-connect="PageContent" data-send="init">
+  <p>
+    What color is each unicode character? Let's find out:
+  </p>
+  <div data-receive="unicode"></div>
+  <label>Selector
+    <input 
+      type="range" min="0" max="297334" step="1"
+      data-send="unicode|hue"
+      data-receive="init"
+    />
+  </label>
+</bitty-2-0>
+

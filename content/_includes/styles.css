@@ -1,14 +1,8 @@
-:root {
-  --lightness: 30%;
-  --chroma: 0.01;
-  --hue: 10;
-}
-
 input {
   width: 100%;
 }
 
-[data-receive=unicode]{
+[data-receive=unicolor]{
   display: flex;
   justify-content: center;
   color: oklch(var(--lightness) var(--chroma) var(--hue));

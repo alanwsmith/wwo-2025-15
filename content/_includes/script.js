@@ -6,12 +6,8 @@ function mapRange(x, y) {
     (x[1] - x[0]);
 }
 
-window.PageContent = class {
-  init(_event, el) {
-    el.value = 0;
-  }
-
-  unicode(event, el) {
+window.UniColor = class {
+  unicolor(event, el) {
     const inValue = parseInt(
       event.target.value,
     );
